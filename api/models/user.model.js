@@ -1,12 +1,9 @@
-import mongoose from "mongoose";
-import { type } from "os";
+import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
         required: true,
-        min: 3,
-        max: 20,
         unique: true,
     },
     email: {
@@ -17,7 +14,7 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-    }
+    },
 }, { timestamps: true }
 );
 
