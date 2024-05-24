@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     }, 
     profilePicture: {
         type: String,
-        default: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fprofile-image&psig=AOvVaw2-3EnVrFdZ_Dzx3yHmMKWr&ust=1711820892463000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOiDzPaDmoUDFQAAAAAdAAAAABAE",
+        default: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
     },
 }, { timestamps: true }
 );
