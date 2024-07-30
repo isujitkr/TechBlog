@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.listen(3000, () => {
-    console.log('server listening on port 3000');
+    console.log('Server listening on port 3000');
 });
 
 app.use('/api/user', userRoutes);
